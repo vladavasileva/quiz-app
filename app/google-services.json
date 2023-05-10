@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "275762121035",
+    "project_id": "quiz-2c776",
+    "storage_bucket": "quiz-2c776.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275762121035:android:181562a3fd5b81f82440ce",
+        "android_client_info": {
+          "package_name": "com.vlada.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275762121035-2upfn9tom4os45kklt163a8d260713l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcvrFZebsX2C4-uw92F3kVUIKKMWXhDwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275762121035-2upfn9tom4os45kklt163a8d260713l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023. Vladyslava Vasylieva
+  -->
+
+<resources>
+    <string name="error_invalid_credential">Ви ввели невірну адресу електронної пошти або пароль.</string>
+    <string name="error_user_already_exists">Обліковий запис з цією адресою вже існує.</string>
+    <string name="error_user_does_not_exist">Введена Вами адреса електронної пошти не відповідає жодному з існуючих облікових записів.</string>
+    <string name="error_user_is_not_authenticated">Необхідна автентифікація.</string>
+    <string name="error_unexpected">Вибачте, сталася непередбачувана помилка.</string>
+    <string name="error_network">У Вас проблема з підключенням до Інтернету.</string>
+    <string name="error_invalid_email_format">Неправильний формат адреси електронної пошти.</string>
+    <string name="error_invalid_password_format">Пароль повинен містити щонайменше 8 символів і включати щонайменше одну велику літеру, одну малу літеру та одну цифру.</string>
+    <string name="error_empty_given_name">Ім\'я не повинне бути порожнім.</string>
+    <string name="error_empty_email">Адреса електронної пошти не повинна бути порожньою.</string>
+    <string name="error_empty_password">Пароль не повинен бути порожнім.</string>
+    <string name="error_empty_family_name">Прізвище не повинне бути порожнім.</string>
+    <string name="error_empty_test_title">Назва тесту не повинна бути порожньою.</string>
+    <string name="error_failed_to_load_the_image">Не вдалося завантажити зображення.</string>
+    <string name="error_failed_to_upload_the_image">Не вдалося завантажити зображення.</string>
+    <string name="error_failed_to_save_the_test">Не вдалося зберегти тест.</string>
+    <string name="error_storage_permission_declined">Ця програма вимагає дозволу на доступ до Вашого сховища, щоб додавати зображення до тесту.</string>
+    <string name="email">Електронна пошта</string>
+    <string name="password">Пароль</string>
+    <string name="given_name">Ім\'я</string>
+    <string name="family_name">Прізвище</string>
+    <string name="teacher_home_search_tests">Пошук тестів</string>
+    <string name="log_out">Вийти</string>
+    <string name="answer">Відповідь</string>
+    <string name="question">Запитання</string>
+    <string name="save">Зберегти</string>
+    <string name="log_in_title">Вхід</string>
+    <string name="log_in">Увійти</string>
+    <string name="sign_up_title">Реєстрація</string>
+    <string name="sign_up">Зареєструватися</string>
+    <string name="teacher_home_my_tests">Мої тести</string>
+    <string name="go_to_sign_up_screen">Зареєструватися</string>
+    <string name="go_to_log_in_screen">Увійти</string>
+    <string name="edit_test_of">%1$d з %2$d</string>
+    <string name="sort_option_newest">Найновіші</string>
+    <string name="sort_option_oldest">Найстаріші</string>
+    <string name="error_empty_test_answer">Відповідь не повинна бути порожньою.</string>
+    <string name="error_empty_test_question">Запитання не повинне бути порожнім.</string>
+    <string name="do_not_have_an_account">Не маєте облікового запису?</string>
+    <string name="already_have_an_account">Вже маєте обліковий запис?</string>
+    <string name="user_details_title">Дані користувача</string>
+    <string name="teacher_profile_title">Профіль користувача</string>
+    <string name="edit_test_title">Конструктор тестів</string>
+    <string name="have_another_account">Маєте інший обліковий запис?</string>
+    <string name="user_role_teacher">Викладач</string>
+    <string name="user_role_student">Студент</string>
+    <string name="teacher_home_not_created_tests">Ви ще не створили жодного тесту.</string>
+    <string name="teacher_home_created_new_test">Ви створили новий тест.</string>
+    <string name="teacher_manage_test_title">Подробиці тесту</string>
+    <string name="delete_test_dialog_title">Підтвердити видалення</string>
+    <string name="delete_test_dialog_text">Ви впевнені, що хочете видалити цей тест?</string>
+    <string name="dismiss">Відмінити</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="hide">Сховати</string>
+    <string name="teacher_home_edited_test">Ви відредагували тест.</string>
+    <string name="refresh">Оновити</string>
+    <string name="teacher_home_deleted_test">Ви видалили тест.</string>
+    <string name="teacher_manage_test_no_one_passed_test">Ще ніхто не пройшов Ваш тест.</string>
+    <string name="student_home_tests">Тести</string>
+    <string name="student_home_search_tests">Пошук тестів</string>
+    <string name="teacher_edit_test_test_title">Назва тесту</string>
+    <string name="student_home_no_tests_found">Тестів не знайдено.</string>
+    <string name="teacher_home_no_tests_found">Тестів не знайдено.</string>
+    <string name="teacher_manage_test_results">Результати</string>
+    <string name="student_profile_title">Профіль користувача</string>
+    <string name="student_test_details_title">Подробиці тесту</string>
+    <string name="student_test_details_my_result">Мій результат</string>
+    <string name="student_test_details_start_the_test">Розпочати тестування</string>
+    <string name="student_test_details_not_took_the_test_yet">Ви ще не складали цей тест.</string>
+    <string name="student_test_title">Тестування</string>
+</resources>
