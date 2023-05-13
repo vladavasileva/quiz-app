@@ -4,11 +4,11 @@
 
 package com.vlada.quiz.presentation.teacher.screen.edit_test
 
+import android.util.Log
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.vlada.quiz.R
-import com.vlada.quiz.domain.InvokeStatus
 import com.vlada.quiz.domain.interactor.GetTest
 import com.vlada.quiz.domain.interactor.SaveTest
 import com.vlada.quiz.domain.interactor.UploadImage
@@ -103,7 +103,8 @@ class TeacherEditTestViewModel(
         uiTest.update { test ->
             if (test.questions.size < MAX_QUESTIONS) {
                 val newQuestions = test.questions.toMutableList()
-                newQuestions.add(test.currentQuestionNumber + 1, QuestionState.Empty)
+                val newQuestion = QuestionState.Empty.copy(id = UUID.randomUUID().toString())
+                newQuestions.add(test.currentQuestionNumber + 1, newQuestion)
                 test.copy(
                     questions = newQuestions,
                     currentQuestionNumber = test.currentQuestionNumber + 1
@@ -172,6 +173,8 @@ class TeacherEditTestViewModel(
     fun saveTest(onSuccess: () -> Unit) = launchWithLoader(loadingState) {
         val uiTest = uiTest.value
         val test = uiTest.toDomainModel()
+
+        Log.e("TEST", test.toString())
 
         when (
             val status = validateTest.executeSync(params = ValidateTest.Params(test = test))

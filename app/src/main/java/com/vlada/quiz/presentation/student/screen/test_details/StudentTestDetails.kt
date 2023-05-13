@@ -4,6 +4,7 @@
 
 package com.vlada.quiz.presentation.student.screen.test_details
 
+import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -271,6 +272,8 @@ private fun TestResultItem(
             }
         }
     }
+
+    Log.e("A", testResult.toString())
 
     Surface(
         modifier = modifier,
